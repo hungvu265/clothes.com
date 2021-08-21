@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giỏ hàng</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script language="javascript" src="js/js.js"></script>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-pink">
+		<a href="" class="navbar-brand">Store</a>
+		<button class="navbar-toggler mr-5" data-toggle="collapse" data-target="#ResponsiveNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="ResponsiveNavbar">
+			<ul class="navbar-nav ml-auto mr-5">
+				<li class="nav-item">
+					<a href="" class="nav-link active">Trang chủ</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Sản phẩm</a>
+					<div class="dropdown-menu mt-2 bg-pink dropdown-nav" style="width: 300px !important;
+    					height: auto !important;">
+						<div class="row">
+							<div class="col-md-6">
+								<div>
+									<h3 class="text-center pt-3">Nam</h3>
+									<hr>
+									<a href="" class="dropdown-item">Quần</a>
+									<a href="" class="dropdown-item">Áo</a>
+									<a href="" class="dropdown-item">Giày</a>
+									<a href="" class="dropdown-item">Thụ kiện</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div>
+									<h3 class="text-center pt-3">Nữ</h3>
+									<hr>
+									<a href="" class="dropdown-item">Quần</a>
+									<a href="" class="dropdown-item">Áo</a>
+									<a href="" class="dropdown-item">Giày</a>
+									<a href="" class="dropdown-item">Thụ kiện</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">Giỏ hàng</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">Thông tin</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">Liên hệ</a>
+				</li>
+			</ul>	
+		</div>
+	</nav>
+	<div class="dropdown" id="dropdown-login">
+		<img src="images/Beauty Salon.png" style="width: 40px; border-radius: 50%;" class="dropdown" data-toggle="dropdown" >
+		<div class="dropdown-menu dropdown-menu-right mt-2 bg-pink dropdown-nav">
+			<a href="" class="dropdown-item">Thông tin</a>
+			<a href="" class="dropdown-item">Đăng xuất</a>
+		</div>
+	</div>
+
+	<!-- Content -->
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="images/800x800/8.jpg" class="img-thumbnail">
+					</div>
+					<div class="col-md-6">
+						<div class="infor-gio">
+							<h5>Tên sản phẩm</h5>
+							<p>Giá: 300.000 VND</p>
+							<div class="mau-sanpham">
+								<div style="width: 30%;">
+									<h4>SIZE</h4>
+									<select>
+										<option>36</option>
+										<option>37</option>
+										<option>38</option>
+									</select>
+								</div>
+								<div>
+									<h4>SỐ LƯỢNG</h4>
+									<div class="slg-sanpham">
+										<span class="giam">-</span>
+										<input type="number" name="" class="soluong-sanpham" value="1" readonly>
+										<span class="tang">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="giohang-sub">
+							<h5><span class="price">300</span><span> .000VND</span></h5>
+							<p>Còn hàng</p>
+							<button class="btn btn-light">Thích</button>
+							<button class="btn btn-dark">Xóa</button>
+						</div>	
+					</div>
+				</div>
+				<hr style="width: 100%;">
+
+				<div class="row">
+					<div class="col-md-3">
+						<img src="images/800x800/8.jpg" class="img-thumbnail">
+					</div>
+					<div class="col-md-6">
+						<div class="infor-gio">
+							<h5>Tên sản phẩm</h5>
+							<p>Giá: 300.000 VND</p>
+							<div class="mau-sanpham">
+								<div style="width: 30%;">
+									<h4>SIZE</h4>
+									<select>
+										<option>36</option>
+										<option>37</option>
+										<option>38</option>
+									</select>
+								</div>
+								<div>
+									<h4>SỐ LƯỢNG</h4>
+									<div class="slg-sanpham">
+										<span class="giam">-</span>
+										<input type="number" name="" class="soluong-sanpham" value="1" readonly>
+										<span class="tang">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="giohang-sub">
+							<h5><span class="price">200</span><span> .000VND</span></h5>
+							<p>Còn hàng</p>
+							<button class="btn btn-light">Thích</button>
+							<button class="btn btn-dark">Xóa</button>
+						</div>	
+					</div>
+				</div>
+				<hr style="width: 100%;">
+
+				<div class="row">
+					<div class="col-md-3">
+						<img src="images/800x800/8.jpg" class="img-thumbnail">
+					</div>
+					<div class="col-md-6">
+						<div class="infor-gio">
+							<h5>Tên sản phẩm</h5>
+							<p>Giá: 300.000 VND</p>
+							<div class="mau-sanpham">
+								<div style="width: 30%;">
+									<h4>SIZE</h4>
+									<select>
+										<option>36</option>
+										<option>37</option>
+										<option>38</option>
+									</select>
+								</div>
+								<div>
+									<h4>SỐ LƯỢNG</h4>
+									<div class="slg-sanpham">
+										<span class="giam">-</span>
+										<input type="number" name="" class="soluong-sanpham" value="1" readonly>
+										<span class="tang">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="giohang-sub">
+							<h5><span class="price">300</span><span> .000VND</span></h5>
+							<p>Còn hàng</p>
+							<button class="btn btn-light">Thích</button>
+							<button class="btn btn-dark">Xóa</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Bottem -->
+				<hr style="width: 100%; height: 4px; background-color: black;">
+				<div style="display: flex; justify-content: space-around;">
+					<button class="btn btn-dark"><a href="">XÓA HẾT</a></button>
+					<button class="btn btn-dark"><a href="">QUAY LẠI MUA HÀNG</a></button>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="giohang-left">
+					<h5>ĐƠN HÀNG</h5>
+					<hr>
+					<div class="form-group">
+						<label>NHẬP MÃ KHUYẾN MÃI</label>
+						<input type="text" name=""><span><button class="btn btn-warning">ÁP DỤNG</button></span>
+					</div>
+					<hr>
+					<div class="don-gia">
+						<div>
+							<p>Đơn hàng</p>
+							<p>Giảm</p>
+						</div>
+						<div style="text-align: right;">
+							<p><span id="price-don">800</span><span> .000VND</span></p>
+							<p>0 VND</p>
+						</div>
+					</div>
+					<hr class="mt-2">
+					<div class="thanhtoan">
+						<div>
+							<p>TỔNG: </p>
+							<p id="price-tong">800.000 <span>VND</span></p>
+						</div>
+						<button class="btn btn-warning">THANH TOÁN</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

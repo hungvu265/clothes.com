@@ -1,0 +1,91 @@
+*{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.dropdown img{
+	margin-right: 50px;
+	border-radius: 50%;
+}
+.menu{
+	background-color: #CEECF2;
+}
+.dropdown1 button{
+	background-color: #7292A6;
+	border: none;
+	color: white;
+	font-size: 18px;
+	width: 100%;
+	text-align: left;
+	padding: 8px 8px;
+}
+.dropdown1{
+	position: relative;
+}
+.hienthi{
+	display: block;
+}
+.dropdown-content a{
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	padding-left: 18px;
+}
+.dropdown-content a:hover{
+	color: white;
+	background-color: #AECFF2;
+}
+.dropdown-content{
+	position: relative;
+	display: none;
+}
+.hienthi{
+	display: block;
+}
+.theloai{
+	border: 1px solid;
+	margin-bottom: 18px;
+}
+.middle{
+	margin-top: 18px;
+}
+#paginate{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pagination li{
+	margin-right: 8px;
+	border: 1px solid;
+	border-radius: 30px;
+	padding: 8px;
+}
+.pagination a:hover{
+	text-decoration: none;
+}
+.active{
+	background-color: lightgreen;
+}
+.slg-sanpham{
+	border: 1px solid;
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 50px;
+}
+.giam, .tang{
+	font-weight: 900;
+}
+.giam{
+	color: black;
+	cursor: not-allowed;
+	padding-left: 8px;
+}
+.tang{
+	color: green;
+	cursor: pointer;
+	padding-right: 8px;
+}

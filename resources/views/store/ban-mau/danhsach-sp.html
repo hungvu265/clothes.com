@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danh sách sản phẩm</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script language="javascript" src="js/js.js"></script>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-pink">
+		<a href="" class="navbar-brand">Store</a>
+		<button class="navbar-toggler mr-5" data-toggle="collapse" data-target="#ResponsiveNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="ResponsiveNavbar">
+			<ul class="navbar-nav ml-auto mr-5">
+				<li class="nav-item">
+					<a href="" class="nav-link active">Trang chủ</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Sản phẩm</a>
+					<div class="dropdown-menu mt-2 bg-pink dropdown-nav" style="width: 300px !important;
+    					height: auto !important;">
+						<div class="row">
+							<div class="col-md-6">
+								<div>
+									<h3 class="text-center pt-3">Nam</h3>
+									<hr>
+									<a href="" class="dropdown-item">Quần</a>
+									<a href="" class="dropdown-item">Áo</a>
+									<a href="" class="dropdown-item">Giày</a>
+									<a href="" class="dropdown-item">Thụ kiện</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div>
+									<h3 class="text-center pt-3">Nữ</h3>
+									<hr>
+									<a href="" class="dropdown-item">Quần</a>
+									<a href="" class="dropdown-item">Áo</a>
+									<a href="" class="dropdown-item">Giày</a>
+									<a href="" class="dropdown-item">Thụ kiện</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">Giỏ hàng</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">Thông tin</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">Liên hệ</a>
+				</li>
+			</ul>	
+		</div>
+	</nav>
+	<div class="dropdown" id="dropdown-login">
+		<img src="images/Beauty Salon.png" style="width: 40px; border-radius: 50%;" class="dropdown" data-toggle="dropdown" >
+		<div class="dropdown-menu dropdown-menu-right mt-2 bg-pink dropdown-nav">
+			<a href="" class="dropdown-item">Thông tin</a>
+			<a href="" class="dropdown-item">Đăng xuất</a>
+		</div>
+	</div>
+
+	<!-- Sản phẩm -->
+	<div class="container option">
+		<div class="row mt-5">
+			<div class="col-md-3 mt-5">
+				<div>
+					<span><a href="">TẤT CẢ</a> |</span>
+					<span><a href="" class="active" style="background-color: lightgray;">NAM</a> |</span>
+					<span><a href="">NỮ</a></span>
+				</div>
+				<hr>
+				<div>
+					<ul>
+						<li><a href="" class="active" style="background-color: lightgray;">Áo</a></li>
+						<li><a href="">Quần</a></li>
+						<li><a href="">Giày</a></li>
+						<li><a href="">Phụ kiện</a></li>
+					</ul>					
+				</div>
+				<hr>
+				<div class="dropdown-danhsach">
+					<h3>TRẠNG THÁI</h3>
+					<ul class="dropdown-content">
+						<li><a href="">Sale off</a></li>
+						<li><a href="">Best Saler</a></li>
+						<li><a href="">New</a></li>
+					</ul>
+				</div>
+				<hr>
+				<div class="dropdown-danhsach">
+					<h3>DÒNG SẢN PHẨM</h3>
+					<ul class="dropdown-content">
+						<li><a href="">Loại 1</a></li>
+						<li><a href="">Loại 2</a></li>
+						<li><a href="">Loại 3</a></li>
+					</ul>
+				</div>
+				<hr>
+				<div class="dropdown-danhsach">
+					<h3>GIÁ</h3>
+					<ul class="dropdown-content">
+						<li><a href="">Loại 1</a></li>
+						<li><a href="">Loại 2</a></li>
+						<li><a href="">Loại 3</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="images/800x800/15.jpg" class="img-thumbnail">
+					</div>
+				</div>
+				<div class="row">
+					<div class="search-bar">
+						<div>
+							Tăng dần <input type="radio" name="gia">
+							Giảm dần <input type="radio" name="gia" >
+						</div>
+						<form>
+							<input type="search" name="" placeholder="Nhập tên sản phẩm">
+							<input type="submit" name="" class="btn btn-success">
+						</form>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-4">
+						<div class="border-product">
+							<img src="images/800x800/5.jpg" class="img-thumbnail">
+							<div class="pt-3"><strong>Tên sản phẩm</strong></div>
+							<p>While/Black</p>
+							<div><strong>100.000 VNĐ</strong></div>
+							<button class="btn btn-danger">Mua ngay</button>
+							<div class="add-cart">
+								<button class="btn btn-success">Thêm vào giỏ</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="border-product">
+							<img src="images/800x800/6.jpg" class="img-thumbnail">
+							<div class="pt-3"><strong>Tên sản phẩm</strong></div>
+							<p>While/Black</p>
+							<div><strong>100.000 VNĐ</strong></div>
+							<button class="btn btn-danger">Mua ngay</button>
+							<div class="add-cart">
+								<button class="btn btn-success">Thêm vào giỏ</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="border-product">
+							<img src="images/800x800/8.jpg" class="img-thumbnail">
+							<div class="pt-3"><strong>Tên sản phẩm</strong></div>
+							<p>While/Black</p>
+							<div><strong>100.000 VNĐ</strong></div>
+							<button class="btn btn-danger">Mua ngay</button>
+							<div class="add-cart">
+								<button class="btn btn-success">Thêm vào giỏ</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="border-product">
+							<img src="images/800x800/6.jpg" class="img-thumbnail">
+							<div class="pt-3"><strong>Tên sản phẩm</strong></div>
+							<p>While/Black</p>
+							<div><strong>100.000 VNĐ</strong></div>
+							<button class="btn btn-danger">Mua ngay</button>
+							<div class="add-cart">
+								<button class="btn btn-success">Thêm vào giỏ</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="border-product">
+							<img src="images/800x800/8.jpg" class="img-thumbnail">
+							<div class="pt-3"><strong>Tên sản phẩm</strong></div>
+							<p>While/Black</p>
+							<div><strong>100.000 VNĐ</strong></div>
+							<button class="btn btn-danger">Mua ngay</button>
+							<div class="add-cart">
+								<button class="btn btn-success">Thêm vào giỏ</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
